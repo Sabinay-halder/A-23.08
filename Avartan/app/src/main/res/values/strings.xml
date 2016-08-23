@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Avartan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="accordion_sections24">
+        <item>09:00 AM – 12:00 PM</item>
+        <item>10:00 AM – 12:00 PM</item>
+        <item>01:00 PM – 04:00 PM</item>
+        <item>02:00 PM – 05:00 PM</item>
+        <item>05:00 PM – 09:00 PM</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility24">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="accordion_sections29">
+        <item>10:00 AM – 12:30 PM</item>
+        <item>12:30 PM – 02:00 PM</item>
+        <item>02:00 PM – 05:00 PM</item>
+
+    </string-array>
+
+    <integer-array name="accordion_visibility29">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </integer-array>
+
+
+    <string-array name="accordion_sections25">
+        <item>02:00 PM</item>
+        <item>05:00 PM – 09:30 PM</item>
+
+    </string-array>
+
+    <integer-array name="accordion_visibility25">
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="accordion_sections26">
+        <item>02:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:30 PM – 09:30 PM</item>
+
+    </string-array>
+
+    <integer-array name="accordion_visibility26">
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+
+    <string-array name="accordion_sections">
+        <item>10:00 AM – 12:30 PM</item>
+        <item>12:30 PM – 02:00 PM</item>
+        <item>02:00 PM – 05:00 PM</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="accordion_sections28">
+        <item>09:30 AM – 12:30 PM</item>
+        <item>12:30 PM – 02:00 PM</item>
+        <item>02:00 PM – 05:00 PM</item>
+        <item>06:00 PM – 08:00 PM</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility28">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="accordion_sections2">
+        <item>10:00 AM – 12:30 PM</item>
+        <item>12:30 PM – 02:00 PM</item>
+        <item>02:00 PM – 05:00 PM</item>
+        <item>06:00 PM – 08:00 PM</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility2">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="accordion_sections30">
+        <item>10:00 AM – 12:30 PM</item>
+        <item>12:30 PM – 02:00 PM</item>
+        <item>02:00 PM – 05:00 PM</item>
+        <item>06:00 PM – 10:00 PM</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility30">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+
+
+</resources>

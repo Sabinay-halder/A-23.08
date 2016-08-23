@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_c">
+
+    <include layout="@layout/titlelayout"></include>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_event_details"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="Event Detail "
+                android:visibility="gone"
+                android:textColor="@color/white"
+                />
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_timeline"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="TimeLine"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                />
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_rules"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="Rules"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                />
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_prize"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="Prize"
+                android:visibility="gone"
+                android:textColor="@color/white"
+               />
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_submission_criteria"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="Submission criteria"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true" />
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_event_outline"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="Event OutLine"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                />
+
+            <com.widevision.avartan.model.CustomButton
+                android:id="@+id/text_register"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@color/fragment_unselected"
+                android:text="Registration"
+android:visibility="gone"
+                android:textColor="@color/white"
+                 />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical"></FrameLayout>
+
+</LinearLayout>

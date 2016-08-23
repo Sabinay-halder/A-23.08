@@ -1,0 +1,876 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/root"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"
+    android:background="@drawable/bg_c">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:accordion="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <include layout="@layout/titlelayout"></include>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="October 24"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view_24"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections24"
+            accordion:section_visibility="@array/accordion_visibility24"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Arohan &amp; Josh Inaugration" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text=" * Prelims Surkshetra" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Chalchitra" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text=" * Matches for all sports start at all venues" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Nukkad Natak" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* POWER TALKS" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Prelims Nrityotsav" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* All matches" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Surkshetra Finals" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* HeadBangers Arena" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* Declaration of winners and Award Distribution" />
+            </LinearLayout>
+        </com.widevision.avartan.widget.AccordionView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="October 25"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view25"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections25"
+            accordion:section_visibility="@array/accordion_visibility25"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * All matches" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Nrityotsav Finals" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Rendezvous(Fashion Show)" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* Declaration of winners and Award Distribution" />
+
+            </LinearLayout>
+        </com.widevision.avartan.widget.AccordionView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="October 26"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view26"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections26"
+            accordion:section_visibility="@array/accordion_visibility26"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Cricket Finals" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Closing Ceremony at Ground" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Fresher’s Welcome &amp; Closing ceremony" />
+            </LinearLayout>
+        </com.widevision.avartan.widget.AccordionView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="October 27"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections"
+            accordion:section_visibility="@array/accordion_visibility"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text=" * Lakshya Business Visionary Awards" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text=" * Distinguished Leader Awards" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text="* Empressario Entrepreneurship Awards" />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="2dp"
+                >
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:layout_gravity="center_horizontal"
+                    android:text=" LUNCH BREAK" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Ecolloquim" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* OJAC – SCM" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* SPC – Operations/SCM" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Checkmate – Strategy" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Navkriti – Elevator Pitch" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* LakshWiz – Factory" />
+            </LinearLayout>
+        </com.widevision.avartan.widget.AccordionView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="October 28"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections28"
+            accordion:section_visibility="@array/accordion_visibility28"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Prerana Business Meet" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:layout_gravity="center_horizontal"
+                    android:text="LUNCH BREAK" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* SCM Conclave" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* Beat The Street – Finance" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* OJAC – Operations" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* SPC – Finance" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* SPARSHA" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* Lecture series- 3 ( d’apprendra)" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Cita De la" />
+     </LinearLayout>
+
+        </com.widevision.avartan.widget.AccordionView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="October 29"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections29"
+            accordion:section_visibility="@array/accordion_visibility29"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:text="* NITIE Annual Finance Conclave" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* SPC – IT" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Biz Talk" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* OJAC – HR" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:text="* SPC – Consultancy/Strategy" />
+
+
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* LakshWiz – Marketing" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text="* Ideation workshop" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:layout_gravity="center_horizontal"
+                    android:text="LUNCH BREAK" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* Manufacturing Conclave" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* SPC – Marketing" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* OJAC – Systems &amp; IT" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Engauge" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Launchpad – Marketing" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Vivaad - Debate" />
+
+            </LinearLayout>
+
+
+        </com.widevision.avartan.widget.AccordionView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="vertical">
+            <com.widevision.avartan.model.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="October 30"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <com.widevision.avartan.widget.AccordionView
+            android:id="@+id/accordion_view4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections30"
+            accordion:section_visibility="@array/accordion_visibility30"
+            >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Entrepreneurship Conclave" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* SPC – HR" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* OJAC – IE" />
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* SyncQuest – IT" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* LakshWiz D-Street" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="LUNCH BREAK" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:text="* Green Lantern" />
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* Proicere - Project Management" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+
+                <com.widevision.avartan.model.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:layout_margin="5dp"
+                    android:text="* DECIBELZ" />
+            </LinearLayout>
+
+        </com.widevision.avartan.widget.AccordionView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            ></LinearLayout>
+    </LinearLayout>
+</ScrollView>

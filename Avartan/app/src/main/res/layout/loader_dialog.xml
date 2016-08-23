@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    >
+
+
+    <com.widevision.avartan.Loader.LoaderView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageLoader"
+        app:loaderType="skype"
+        app:loaderFrameDelay="40"
+        android:layout_width="85sp"
+        android:layout_height="85sp"
+        android:layout_centerInParent="true"
+
+
+        />
+
+
+
+</LinearLayout>
